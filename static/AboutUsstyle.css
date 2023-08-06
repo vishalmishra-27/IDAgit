@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&display=swap');
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: center/cover no-repeat url("../static/bg2.jpg");
+    background-color: rgba(255,255,255,0);
+    background-blend-mode: lighten;
+}
+
+#AboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 89px;
+}
+
+#info{
+    backdrop-filter: blur(4px);
+    background: rgb(129, 129, 129, 0.2);
+    width: 33%;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 1.6rem;
+}
+
+#info p{
+    margin-bottom: 30px;
+    font-size:medium;
+    font-style: italic;
+    color: #ffffff;
+    font-family: 'Cairo Play', sans-serif;    
+}
+
+#info h1{
+    font-family: 'Cairo Play', sans-serif;    
+    color: #0e0e0e;
+}
+
+@keyframes animation3 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#firstpara{
+    opacity: 0 ;
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#secondpara{
+    opacity: 0 ;
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+#heading{
+    opacity: 0 ;
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
